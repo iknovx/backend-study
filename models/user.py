@@ -1,6 +1,0 @@
-users = [
-    {"id": 1, "name": "John", "age": 30, "student": True},
-    {"id": 2, "name": "Jane", "age": 25, "student": False, "hobby": "Reading"},
-    {"id": 3, "name": "Doe", "age": 22, "student": True, "hobby": "Gaming"},
-    {"id": 4, "name": "Alice", "age": 28, "student": False, "hobby": "Cooking"}
-]
