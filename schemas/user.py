@@ -5,3 +5,4 @@ class User(BaseModel):
     name: str
     age: int
     student: bool
+    hobby: str

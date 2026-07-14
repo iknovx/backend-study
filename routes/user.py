@@ -27,6 +27,10 @@ def get_user(user_id: int):
 def get_students(is_student: bool):
     return [u for u in users if u["student"] == is_student]
 
+@router.get("/user/hobby/{hobby}")
+def get_users_by_hobby(hobby: str):
+    return [u for u in users if u["hobby"] == hobby]
+
 
 @router.delete("/user/{user_id}")
 def delete_user(user_id: int):
