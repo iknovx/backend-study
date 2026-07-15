@@ -1,27 +1,54 @@
-# Sample book database
-books = [
+# Sample fruit database
+fruits = [
     {
         "id": 1,
-        "title": "1984",
-        "author": "George Orwell",
-        "year": 1949
+        "name": "Apple",
+        "color": "Red",
+        "price": 0.5
     },
     {
         "id": 2,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "year": 1960
+        "name": "Banana",
+        "color": "Yellow",
+        "price": 0.3
+       
     },
     {
         "id": 3,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "year": 1925
+        "name": "Cherry",
+        "color": "Red",
+        "price": 0.2
     },
     {
         "id": 4,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "year": 1813
+        "name": "Date",
+        "color": "Brown",
+        "price": 0.4
+    }
+]
+vegetables = [
+    {
+        "id": 1,
+        "name": "Carrot",
+        "color": "Orange",
+        "price": 0.6
+    },
+    {
+        "id": 2,
+        "name": "Broccoli",
+        "color": "Green",
+        "price": 0.8
+    },
+    {
+        "id": 3,
+        "name": "Spinach",
+        "color": "Green",
+        "price": 0.5
+    },
+    {
+        "id": 4,
+        "name": "Potato",
+        "color": "Brown",
+        "price": 0.4
     }
 ]

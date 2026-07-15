@@ -1,8 +1,12 @@
 from pydantic import BaseModel
 
-# Book model
-class Book(BaseModel):
-   title: str
-   author: str
-   year: int
+# Fruits model
+class Fruits(BaseModel):
+   name: str
+   color: str
+   price: float
 
+class Vegetables(BaseModel):
+   name: str
+   color: str
+   price: float

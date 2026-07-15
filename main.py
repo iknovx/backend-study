@@ -1,13 +1,14 @@
 
 from fastapi import FastAPI
 
-from routes.books import router as books_router
+from routes.fruits import router as fruits_router
+from routes.vegetables import router as vegetables_router
+app = FastAPI(title="Shop API") # Main API for managing fruits and vegetables
 
-app = FastAPI(title="Books API") # Main API for managing books
+# Include the fruits router
+app.include_router(fruits_router) # Include the fruits router
 
-app.include_router(books_router) # Include the books router
-
-
+app.include_router(vegetables_router) # Include the vegetables router
 
 if __name__ == "__main__":
     import uvicorn
