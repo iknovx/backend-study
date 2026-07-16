@@ -3,6 +3,7 @@ from fastapi import FastAPI
 
 from routes.fruits import router as fruits_router
 from routes.vegetables import router as vegetables_router
+from routes.soda import router as sodas_router
 app = FastAPI(title="Shop API") # Main API for managing fruits and vegetables
 
 # Include the fruits router
@@ -10,6 +11,7 @@ app.include_router(fruits_router) # Include the fruits router
 
 app.include_router(vegetables_router) # Include the vegetables router
 
+app.include_router(sodas_router) # Include the sodas router
 if __name__ == "__main__":
     import uvicorn
 

@@ -6,6 +6,8 @@ from data.database import fruits
 
 router = APIRouter(prefix="/fruits", tags=["fruits"])
 
+with open("log/log.txt", "a") as log_file:
+    log_file.write("Fetched all fruits\n")
 
 # Get a list of fruits
 @router.get("/", summary="Get a list of fruits")
@@ -59,4 +61,3 @@ def delete_fruit(fruit_id: int):
 
     raise HTTPException(status_code=404, detail="Fruit not found")
 
-# Delete a vegetable by ID

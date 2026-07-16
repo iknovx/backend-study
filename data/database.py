@@ -52,3 +52,25 @@ vegetables = [
         "price": 0.4
     }
 ]
+
+sodas = [{
+    "id": 1,
+    "name": "Coke",
+    "brand": "Coca-Cola",
+    "price": 1.0
+}, {
+    "id": 2,
+    "name": "Pepsi",
+    "brand": "PepsiCo",
+    "price": 1.0
+}, {
+    "id": 3,
+    "name": "Sprite",
+    "brand": "Coca-Cola",
+    "price": 1.0
+}, {
+    "id": 4,
+    "name": "Fanta",
+    "brand": "Coca-Cola",
+    "price": 1.0
+}]

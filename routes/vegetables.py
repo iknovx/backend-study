@@ -3,7 +3,8 @@ from schemas.models import Vegetables
 from data.database import vegetables
 
 router = APIRouter(prefix="/vegetables", tags=["vegetables"])
-
+with open("log/log.txt", "a") as log_file:
+    log_file.write("Fetched all vegetables\n")
 # Get a list of vegetables
 @router.get("/", summary="Get a list of vegetables")
 def get_vegetables():

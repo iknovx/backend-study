@@ -10,3 +10,8 @@ class Vegetables(BaseModel):
    name: str
    color: str
    price: float
+
+class Sodas(BaseModel):
+   name: str
+   brand: str
+   price: float
